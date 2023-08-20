@@ -41,7 +41,6 @@ function Signup() {
               type="text"
               placeholder="Enter Name"
               autoComplete="off"
-              name="email"
               className="form-control rounded-0"
               onChange={(e) => setName(e.target.value)}
             />
@@ -54,7 +53,6 @@ function Signup() {
               type="email"
               placeholder="Enter Email"
               autoComplete="off"
-              name="email"
               className="form-control rounded-0"
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -66,7 +64,6 @@ function Signup() {
             <input
               type="password"
               placeholder="Enter Password"
-              name="password"
               className="form-control rounded-0"
               onChange={(e) => setPassword(e.target.value)}
             />
